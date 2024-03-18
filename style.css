@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .sec-1 {
+    background: url("/images/Layer\ 5.png");
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20%;
+    margin-bottom: 20px;
+  }
+  
+  .finanza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .finanzatext {
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 20px;
+  }
+  
+  .finanzaicon {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .callus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .callimg {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .calltextno {
+    margin-left: 20px;
+  }
+  
+  .calltxt {
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+  }
+  
+  .subsec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .leftside {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 620px;
+    padding-left: 100px;
+    position: relative;
+    left: 100px;
+  }
+  
+  .leftsideimg {
+    height: 500px;
+    width: 500px;
+  }
+  
+  .rightside {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    right: 100px;
+    top: 70px;
+  }
+  
+  .rightsideheading-1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .yellowtxt {
+    color: yellow;
+  }
+  
+  .rightsideformbox {
+    background-color: darkblue;
+    padding: 25px;
+    width: 370px;
+    position: relative;
+  }
+  
+  .form-heading {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .formdesc {
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+  
+  .fillform {
+    background-color: white;
+    color: black;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    font-size: 13px;
+    border: none;
+  }
+  
+  .mailphone {
+    display: inline-flex;
+    width: 100%;
+  }
+  
+  .email {
+    margin-right: 10px;
+    width: 50%;
+  }
+  
+  .phone {
+    width: 50%;
+  }
+  
+  .Message {
+    height: 80px;
+  }
+  
+  .submitbtn {
+    background-color: yellow;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 7px 18px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 2px;
+    margin-bottom: 10px;
+  }
+  
+  .impnote {
+    font-size: 8px;
+    color: white;
+  }
+  
+  .sec2 {
+    background: url("/images/sec2background.png");
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .subsec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+  }
+  
+  .subsec2number {
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: rgb(17, 104, 109);
+  }
+  
+  .yellowbar {
+    background-color: yellow;
+    height: 5px;
+    width: 50px;
+    margin-bottom: 40px;
+  }
+  
+  .subsec2info {
+    font-size: 20px;
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  .sec3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: url("/images/landing_7.png");
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: center;
+    width: 100%;
+  }
+  
+  .sec-heading3 {
+    color: darkblue;
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .symbol3 {
+    font-size: 100px;
+    color: rgb(196, 196, 26);
+  }
+  
+  .txt3 {
+    width: 60%;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .aboutid {
+    margin-left: 7px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .aboutid span {
+    font-size: 12px;
+    position: relative;
+    bottom: 10px;
+  }
+  
+  .sec4 {
+    /* display: flex; */
+    background-color: rgb(13, 13, 200);
+    padding: 40px;
+    color: white;
+  }
+  
+  .subsec4-1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+  }
+  
+  .verticalbar {
+    height: 70px;
+    width: 3px;
+    background-color: white;
+  }
+  
+  .phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+  }
+  
+  .phoneimg {
+    background-color: yellow;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .phoneno{
+    font-size: 25px;
+  }
+  
+  .mailtxt{
+    font-size: 25px;
+  }
+  
+  .mail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+  }
+  
+  
+  
+  .mailimg {
+    background-color: yellow;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .subsec4-2 {
+    color: rgb(224, 221, 224);
+    text-align: center;
+    margin: 0px 100px;
+    line-height: 30px;
+  }
+  
+  .sec5{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    height: 50px;
+    width: 100%;
+  
+  }
